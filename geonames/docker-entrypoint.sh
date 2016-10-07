@@ -5,4 +5,4 @@ set -e
 cd /mnt/data/geonames
 
 # Download geonames data
-./bin/pelias-geonames -d de
+./bin/pelias-geonames -d all

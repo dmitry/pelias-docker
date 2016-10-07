@@ -3,7 +3,7 @@ MAINTAINER Jan Nonnen <helvalius@gmail.com>
 
 
 # Define the OSM argument, use monaco as default
-ARG OSM=http://download.geofabrik.de/europe/monaco-latest.osm.pbf
+ARG OSM=http://ftp5.gwdg.de/pub/misc/openstreetmap/planet.openstreetmap.org/planet/planet-latest.osm.bz2
 
 # Auxiliary folders
 RUN mkdir -p /mnt/data/openstreetmap \
