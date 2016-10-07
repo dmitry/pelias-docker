@@ -25,4 +25,4 @@ VOLUME ["/mnt/data/geonames/data"]
 
 COPY docker-entrypoint.sh /
 
-#ENTRYPOINT ["/docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]
